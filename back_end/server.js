@@ -17,6 +17,8 @@ connectDB();
 //API END POINT
 app.use("/api/food",foodRouter)
 
+
+
 //---enpoint for images
 app.use("/image",express.static("uploads"))
 
